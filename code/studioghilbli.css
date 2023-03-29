@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Titillium+Web&display=swap');
+
+* {
+    margin: 0 auto;
+	font-family: 'Righteous', sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(220, 241, 245);
+    /*Cor de fundo de toda a página*/
+}
+
+#menu-s ul {
+    /*Barra de Navegação - Geral*/
+    z-index: 999;
+    position: fixed;
+    background-color: rgb(106, 190, 196, 0.9);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-image: linear-gradient(to bottom, transparent 1%, rgba(93, 93, 153, 0.9));
+    -webkit-filter: grayscale(20%);
+    box-shadow: 0px 2px 4px rgb(0, 0, 0, 0.6);
+}
+#menu-s ul li{
+    /*Barra de Navegação - lado direito em linha*/
+    display: inline;
+}
+#menu-s ul li a {
+    /*Barra de Navegação - lado direito, ancoragem*/
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    margin: 0px;
+    transition: background .3s;
+    font-weight: bold;
+}
+#menu-s ul li a:hover {
+    /*Barra de Navegação - Hover*/
+    color: rgb(167, 113, 230);
+}
+.titulo-a{
+    /*Barra de Navegação - Lado esquerdo, título*/
+    display: inline;
+    color: #fff;
+    margin-left: 50px;
+    margin-right: 500px;
+}    
+#imagem-fundo{
+    /*Imagem de fundo como background da página*/
+    background-image: url(Imagens/studio-ghibli-page-2.jpg);
+    width: 100%;
+    height: 100vh;
+    background-color: transparent;
+    background-size: cover;
+    -webkit-mask-image: linear-gradient(to top, transparent 2%, rgb(0, 0, 0) 25px);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-filter: grayscale(30%);
+    margin-bottom: 30px;
+}
+#imagem-fundo h1{
+    /*Título Studio Ghibli*/
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+    margin-left: 300px;
+    position: fixed;
+    text-align: justify;
+    align-items: justify;
+    width: auto;
+    height: auto;
+    top:270px;
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+}
+#imagem-fundo p{
+    /*Breve texto descritivo*/
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+    margin-left: 40px;
+    position: fixed;
+    text-align: left;
+    align-items: bottom;
+    width: auto;
+    height: auto;
+    top:530px;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+}
+.imagem-texto-1 img{
+    /*Imagem alinhada na direita em linha*/
+    width: auto;
+    height: auto;
+    max-width: 450px;
+    max-height: 350px;
+    display: inline-block;
+    float: right;
+    margin-left: 0px;
+    margin-right: 100px;
+}
+.imagem-texto-1 p{
+    /*Texto estúdio*/
+    width: auto;
+    height: auto;
+    max-width: 691px;
+    max-height: 0px;
+    display: inline-block;
+    margin-left: 100px;
+    margin-right: 0px;
+    text-align: justify;
+}
+.imagem-texto-1 h1 {
+    /*Título estúdio*/
+    margin: 0  auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-left: 100px;
+    margin-right: 0px;
+    margin-top: 00px;
+    top: 650px;
+    font-weight: bold;
+    font-size: 2em;
+    padding-left: 260px;
+    display: inline;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+.filmografia{
+    /*Filmografia separada em caixa de sombra, estática, com borda arredondada e levitando*/
+    width: 1249px;
+    height: 880px;
+    background-color: rgb(82, 77, 77, 0.9);
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 80px;
+    margin-bottom: 0px;
+    border-radius: 10%;
+    position: static;
+    box-shadow: 20px 25px 35px rgb(0, 0, 0, 0.6);
+    transform: translateY(10px);
+    transition: 0.5s;
+}
+.filmografia:hover{
+    /*Hover para efeito de levitação da seção de filmografia*/
+    transform: translateY(-25px);
+}
+.filmografia img{
+    /*Imagens dos filmes dentro da seção, com perda de cor e borda arredondada*/
+    max-width: 100%;
+    max-height: 100%;
+    width: 230px; 
+    height: 330px;   
+    margin-left: 64px;
+    margin-right: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 15px rgba(236, 229, 229, 0.6);
+    -webkit-filter: grayscale(60%);
+    border-radius: 20%;
+}
+.filmografia img:hover{
+    /*Hover para volta da cor original e escala de 1.1 com 1s de transição, o que gera efeito na capa*/
+    -webkit-filter: grayscale(0%);
+    transition: 1.0s;
+    border: 6px ridge rgb(219, 249, 255);
+    transform: scale(1.5);
+}
+.filmografia h2{
+    /*Título escrito "FILMOGRAFIA" no ínicio da seção*/
+    margin-left: 100px;
+    padding-top: 25px;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #fff;
+}
+#imagem-section-3{
+    /*Separação da terceira seção de filmografia*/
+    margin-top: 60px;
+}
+#imagem-section-3 img{
+    /*Imagem de chihiro em linha*/
+    width: auto;
+    height: auto;
+    max-width: 550px;
+    max-height: 450px;
+    display: inline-block;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 40px;
+    float: left;
+    -webkit-filter: grayscale(60%);
+    
+}
+#imagem-section-3 img:hover{
+    /*Hover para retorno de cor em 1s*/
+    -webkit-filter: grayscale(0%);
+    transition: 1.0s;
+}
+#imagem-section-3 h1{
+    /*Título da Historia*/
+    position: relative;
+    text-align: justify;
+    margin-left: 0px;
+    margin-right: 230px;
+    width: auto;
+    height: auto;
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+#imagem-section-3 p{
+    /*Paragráfo da História*/
+    width: auto;
+    height: auto;
+    max-width: 685px;
+    max-height: 0px;
+    display: inline-block;
+    margin-left: 0px;
+    margin-right: 100px;
+    padding-top: 25px;
+    text-align: justify;
+}
+#linha-1{
+    /*Linha de separação com sombra e borda editada com caixa de sombra*/
+    height: 3px;
+    width: 1149px;
+    background-color: rgb(82, 77, 77, 0.9);
+    position: static;
+    display:flex;
+    box-shadow: 0px 2px 4px rgb(0, 0, 0, 0.6);
+    border-radius: 60px;
+    border-radius: 50%;
+}
+.section-4 h1{
+    /*Título de Progenitores*/
+    margin-top: 40px;
+    margin-left: 100px;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+.section-4 p{
+    /*Paragráfo de Progenitores*/
+    display: inline-block;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.botao-progenitores{
+    /*Botão para segunda página*/
+    font-size: 18px;
+    display: block;
+    text-align: justify;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    width: 150px;
+}
+.botao-progenitores a{
+    /*Edição do Botão*/
+    color: #fff;
+    background-color: rgb(82, 77, 77, 0.9);
+    border-radius: 10px;
+    border-bottom: 5px solid rgba(37, 36, 36, 0.9);
+    padding: 8px;
+    text-decoration: none;
+    transition: 1.0s;
+}
+.botao-progenitores a:hover{
+    /*Hover para efeito cor e sombra em 0.5s*/
+    background-color: rgb(97, 90, 90, 0.9);
+    box-shadow: 0px 0px 20px rgb(97, 90, 90, 0.9);
+    transition: 0.5s;
+}
+.rodape{
+    /*Cor, tamanho, perda de cor e gradiente*/
+    bottom: 0;
+    background-color: rgb(93, 93, 143);
+    color: #FFF;
+    width: 100%;
+    height: 150px;    
+    -webkit-mask-image: linear-gradient(to bottom, transparent 1%, rgb(0, 0, 0) 25px);
+    -webkit-filter: grayscale(50%);
+}
+.rodape h4{
+    /*Rodapé com os nomes dos integrantes do grupo*/
+    text-align: center;
+    padding-top: 60px;
+}
+.rodape-2{
+    /*Extremo sul da página*/
+    background-color: rgb(109, 109, 165);
+    width: 100%;
+    height: 40px;
+    position: relative;
+    -webkit-filter: grayscale(40%);
+    display: inline-block;
+}
+#icones-rodape img{
+    /*Imagens dos icones no final da página, no lado direito*/
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    float: right;
+    margin-top: -11px;
+    margin-right: 55px;
+    margin-left: -55px;
+}
+#icones-rodape a{
+    /*Edição da posição das imagens*/
+    position: relative;
+    top: -10px;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+    float: right;
+}
+#icones-rodape a img:hover{
+    /*Hover para mudança de cor em 0.5s*/
+    background-color: rgb(56, 56, 139);
+    transition: 0.5s;
+}
+.rodape-2 h2{
+    /*Titulo ao lado esquerdo*/
+    font-size: 17px;
+    position: relative;
+    top: 10px;
+    text-align: justify;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    padding-left: 100px;
+    padding-right: 0px;
+    color: #fff;
+}
+.rodape-2 li{
+    /*Lista das imagens em linha*/
+    display: inline;
+}
