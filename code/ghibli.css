@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Titillium+Web&display=swap');
+
+* {
+    margin: 0 auto;
+	font-family: 'Righteous', sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(220, 241, 245);
+}
+
+#menu-s ul {
+    z-index: 999;
+    position: fixed;
+    background-color: rgb(106, 190, 196, 0.9);
+    width: 100%;
+    margin: 0; padding: 0;
+    list-style-type: none;
+    padding: 0;
+    background-image: linear-gradient(to bottom, transparent 1%, rgba(93, 93, 153, 0.9));
+    -webkit-filter: grayscale(20%);
+    box-shadow: 0px 2px 4px rgb(0, 0, 0, 0.6);
+}
+#menu-s ul li{
+    display: inline;
+}
+#menu-s ul li a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    margin: 0px;
+    transition: background .3s;
+    font-weight: bold;
+    margin-left: 200px;
+    
+}
+#menu-s ul li a:hover {
+    color: rgb(167, 113, 230);
+}
+.titulo-a{
+    display: inline;
+    color: #fff;
+    margin-left: 50px;
+    margin-right: 500px;
+}    
+#imagem-fundo{
+    background-image: url(Imagens/studio-ghibli-page-2.jpg);
+    width: 100%;
+    height: 100vh;
+    background-color: transparent;
+    background-size: cover;
+    -webkit-mask-image: linear-gradient(to top, transparent 2%, rgb(0, 0, 0) 25px);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-filter: grayscale(30%);
+    margin-bottom: 30px;
+}
+#imagem-fundo h1{
+    /*Título*/
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+    margin-left: 300px;
+    position: fixed;
+    text-align: justify;
+    align-items: justify;
+    width: auto;
+    height: auto;
+    top:270px;
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+}
+.Miyazaki img{
+    /*Imagem Miyzaki com perda de cor e caixa de sombra*/
+    max-width: 100%;
+    max-height: 100%;
+    width: 250px; 
+    height: 350px;   
+    display: inline-block;
+    float: left;
+    margin-right: 50px;
+    margin-left: 100px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    box-shadow: 0 5px 15px rgb(0, 0, 0, 0.6);
+    border-radius: 15%;
+    -webkit-filter: grayscale(60%);
+    
+}
+.Miyazaki img:hover{
+    /*Hover com volta de cor e transforma em escala*/
+    -webkit-filter: grayscale(0%);
+    transition: 0.5s;
+    border: 3px solid rgb(255, 255, 255);
+    transform: scale(1.0);
+}
+.Miyazaki h1{
+    /*Título Miyazaki*/
+    margin-left: 650px;
+}
+.Miyazaki p{
+    /*Paragráfo*/
+    display: inline-block;
+    width: 700px; 
+    text-align: justify;
+    margin-top: 40px;
+    font-size: 20px;
+}
+#linha-1{
+    /*Linha de separação*/
+    height: 3px;
+    width: 1049px;
+    background-color: rgb(82, 77, 77, 0.9);
+    position: static;
+    display:flex;
+    box-shadow: 0px 2px 4px rgb(0, 0, 0, 0.6);
+    border-radius: 60px;
+    border-radius: 50%;
+}
+.Suzuki img{
+    /*Imagem Suzuki com perda de cor e caixa de sombra*/
+    max-width: 100%;
+    max-height: 100%;
+    width: 250px; 
+    height: 350px;   
+    -webkit-filter: grayscale(60%);
+    display: inline-block;
+    float: right;
+    box-shadow: 0 5px 15px rgb(0, 0, 0, 0.6);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 100px;
+    margin-left: 50px;
+    border-radius: 15%;
+    -webkit-filter: grayscale(60%);
+}
+.Suzuki img:hover{
+    /*Hover com retorno de cor e transformação em escala*/
+    -webkit-filter: grayscale(0%);
+    transition: 0.5s;
+    border: 3px solid rgb(255, 255, 255);
+    transform: scale(1.0);
+}
+.Suzuki p{
+    /*Paragráfo*/
+    display: inline-block;
+    width: 700px; 
+    text-align: justify;
+    margin-top: 40px;
+    margin-left: 249px;
+    font-size: 20px;
+}
+.Suzuki h1{
+    /*Título*/
+    margin-left: 500px;
+    margin-top: 40px;
+}
+#linha-2{
+    /*Linha de Separação*/
+    height: 3px;
+    width: 1049px;
+    background-color: rgb(82, 77, 77, 0.9);
+    position: static;
+    display:flex;
+    box-shadow: 0px 2px 4px rgb(0, 0, 0, 0.6);
+    border-radius: 60px;
+    border-radius: 50%;
+}
+.Takahata img{
+    /*Imagem Takahata com perda de cor e caixa de sombra*/
+    max-width: 100%;
+    max-height: 100%;
+    width: 250px; 
+    height: 350px;   
+    -webkit-filter: grayscale(60%);
+    display: inline-block;
+    float: left;
+    margin-right: 50px;
+    box-shadow: 0 5px 15px rgb(0, 0, 0, 0.6);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 50px;
+    margin-left: 100px;
+    border-radius: 15%;
+    -webkit-filter: grayscale(60%);
+}
+.Takahata img:hover{
+    /*Hover com retorno de cor e transformação em escala*/
+    -webkit-filter: grayscale(0%);
+    transition: 0.5s;
+    border: 3px solid rgb(255, 255, 255);
+    transform: scale(1.0);
+}
+.Takahata h1{
+    /*Título*/
+    margin-left: 650px;
+    margin-top: 40px;
+}
+.Takahata p{
+    /*Paragráfo*/
+    display: inline-block;
+    width: 700px; 
+    text-align: justify;
+    margin-top: 40px;
+    font-size: 20px;
+}
+#linha-3{
+    /*Linha de separação*/
+    height: 3px;
+    width: 1049px;
+    background-color: rgb(82, 77, 77, 0.9);
+    position: static;
+    display:flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    box-shadow: 0px 2px 4px rgb(0, 0, 0, 0.6);
+    border-radius: 60px;
+    border-radius: 50%;
+}
+.Tokuma img{
+    /*imagem Tokuma com perda de cor e caixa de sombra*/
+    max-width: 100%;
+    max-height: 100%;
+    width: 250px; 
+    height: 350px;   
+    -webkit-filter: grayscale(60%);
+    display: inline-block;
+    float: right;
+    margin-right: 100px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    box-shadow: 0 5px 15px rgb(0, 0, 0, 0.6);
+    border-radius: 15%;
+    -webkit-filter: grayscale(60%);
+}
+.Tokuma img:hover{
+    /*Hover com retorno de cor e transformação em escala*/
+    -webkit-filter: grayscale(0%);
+    transition: 0.5s;
+    border: 3px solid rgb(255, 255, 255);
+    transform: scale(1.0);
+}
+.Tokuma h1{
+    /*Título*/
+    margin-left: 500px;
+    margin-top: 40px;
+}
+.Tokuma p{
+    /*Paragráfo*/
+    display: inline-block;
+    width: 700px; 
+    text-align: justify;
+    margin-top: 40px;
+    margin-left: 249px;
+    font-size: 20px;
+}
+.rodape{
+    /*Rodapé, tamanho, cor de fundo e gradiente*/
+    bottom: 0;
+    background-color: rgb(93, 93, 143);
+    color: #FFF;
+    width: 100%;
+    height: 150px;    
+    -webkit-mask-image: linear-gradient(to bottom, transparent 1%, rgb(0, 0, 0) 25px);
+    -webkit-filter: grayscale(50%);
+    margin-top: 180px;
+}
+.rodape h4{
+    /*Nome dos integrantes da equipe*/
+    text-align: center;
+    padding-top: 60px;
+}
+.rodape-2{
+    /*Rodapé no extremo sul da página*/
+    background-color: rgb(109, 109, 165);
+    width: 100%;
+    height: 40px;
+    position: relative;
+    -webkit-filter: grayscale(40%);
+    display: inline-block;
+}
+#icones-rodape img{
+    /*Imagens alinhadas a direita*/
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    float: right;
+    margin-top: -11px;
+    margin-right: 55px;
+    margin-left: -55px;
+}
+#icones-rodape a{
+    /*Edição da posição das páginas*/
+    font-size: 17px;
+    position: relative;
+    top: -10px;
+    text-align: justify;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+    text-decoration: none;
+    transition: background .3s;
+    color: #fff;
+    float: right;
+    
+}
+#icones-rodape a img:hover{
+    /*Hover para mudança de cor em 0.5s*/
+    background-color: rgb(56, 56, 139);
+    transition: 0.5s;
+}
+.rodape-2 h2{
+    /*Titulo ao lado esquerdo do extremo sul da página*/
+    font-size: 17px;
+    position: relative;
+    top: 10px;
+    text-align: justify;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    padding-left: 100px;
+    padding-right: 0px;
+    color: #fff;
+}
+.rodape-2 li{
+    /*Lista das imagens em linha*/
+    display: inline;
+}
