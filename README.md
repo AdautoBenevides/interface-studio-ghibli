@@ -1,6 +1,11 @@
 # INTERFACE STUDIO GHIBLI
 Interface feita em HTML e CSS  do Studio Ghibli
 
+Autores:
+ - Adauto Benevides Couto
+ - Camille Janine Chaves Vasconcelos
+ - João Vitor Nascimento de Souza
+
 
 # Layout do Projeto
 ## Página Inicial
