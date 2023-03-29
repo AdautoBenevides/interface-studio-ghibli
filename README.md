@@ -6,31 +6,35 @@ Interface feita em HTML e CSS  do Studio Ghibli
 ## Página Inicial
 ![Home Page](https://github.com/joaovitornso/interface-studio-ghibli/blob/main/images/home_part1.png)
 # O Estúdio
-![Home Page](https://github.com/joaovitornso/interface-studio-ghibli/blob/main/images/home_part2.png)
+![O Estúdio](https://github.com/joaovitornso/interface-studio-ghibli/blob/main/images/home_part2.png)
 
 ## Filmografia
-![Home Page](https://github.com/joaovitornso/interface-studio-ghibli/blob/main/images/home_part3_filmografia.png)
-![Home Page](https://github.com/joaovitornso/interface-studio-ghibli/blob/main/images/home_part4_filmografia2.png)
+![Filmografia](https://github.com/joaovitornso/interface-studio-ghibli/blob/main/images/home_part3_filmografia.png)
+![Filmografia](https://github.com/joaovitornso/interface-studio-ghibli/blob/main/images/home_part4_filmografia2.png)
 
 ## História 
-![Home Page](https://github.com/joaovitornso/interface-studio-ghibli/blob/main/images/home_part5_historia.png)
+![História ](https://github.com/joaovitornso/interface-studio-ghibli/blob/main/images/home_part5_historia.png)
 
 ## Progenitores - Saiba mais
-![Home Page](https://github.com/joaovitornso/interface-studio-ghibli/blob/main/images/home_part6_progenitores.png)
+![Progenitores](https://github.com/joaovitornso/interface-studio-ghibli/blob/main/images/home_part6_progenitores.png)
 
 ## Página Progenitores
+![Progenitores Home](https://github.com/joaovitornso/interface-studio-ghibli/blob/main/images/progenitores_home.png)
+
 ## Hayao Miyazaki
-![Home Page](https://github.com/joaovitornso/interface-studio-ghibli/blob/main/images/progenitores_Hayao_Miyazaki.png)
+![Hayao Miyazaki](https://github.com/joaovitornso/interface-studio-ghibli/blob/main/images/progenitores_Hayao_Miyazaki.png)
 
 ## Toshio Suzuki
-![Home Page](https://github.com/joaovitornso/interface-studio-ghibli/blob/main/images/progenitores_Toshio_Suzuki.png)
+![Toshio Suzuki](https://github.com/joaovitornso/interface-studio-ghibli/blob/main/images/progenitores_Toshio_Suzuki.png)
 
 ## Isao Takaha
-![Home Page](https://github.com/joaovitornso/interface-studio-ghibli/blob/main/images/progenitores_Isao_Takaha.png)
+![Isao Takaha](https://github.com/joaovitornso/interface-studio-ghibli/blob/main/images/progenitores_Isao_Takaha.png)
 
 ## Yasuyoshi Tokuma
-![Home Page](https://github.com/joaovitornso/interface-studio-ghibli/blob/main/images/progenitores_Yasuyoshi_Tokuma.png)
+![Yasuyoshi Tokuae](https://github.com/joaovitornso/interface-studio-ghibli/blob/main/images/progenitores_Yasuyoshi_Tokuma.png)
 
+
+![Footer](https://github.com/joaovitornso/interface-studio-ghibli/blob/main/images/progenitores_footer.png)
 
 
 
